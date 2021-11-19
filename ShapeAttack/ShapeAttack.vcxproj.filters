@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Square.cpp">
+      <Filter>GameContent\Source Files\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Shape.cpp">
+      <Filter>GameContent\Header Files\Units</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameWorld.h">
+      <Filter>GameContent\Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFunctions.h">
+      <Filter>GameContent\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>GameContent\Header Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>GameContent\Header Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>GameContent\Header Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GameContent\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameContent">
+      <UniqueIdentifier>{97ae0607-9739-4a25-b760-d3ed5d55832b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContent\Header Files">
+      <UniqueIdentifier>{3c191610-c093-4447-9969-e6c140ba170b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContent\Source Files">
+      <UniqueIdentifier>{34b34203-ae21-4e25-956f-2490cd85d4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContent\Source Files\AI">
+      <UniqueIdentifier>{2e7e0e87-3dd0-48c8-9de1-4de6466893d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContent\Header Files\GameWorld">
+      <UniqueIdentifier>{0476a9f6-65f5-4a66-aeeb-2d193145de60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContent\Source Files\GameWorld">
+      <UniqueIdentifier>{9c7865a5-192f-4a6e-9b5f-5a5126efe719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContent\Header Files\Core">
+      <UniqueIdentifier>{02137969-d1ca-4299-9266-9f75ab31a9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContent\Header Files\AI">
+      <UniqueIdentifier>{a3c874ff-e8bb-40d6-b5a1-7b3d87f5e64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContent\Header Files\Units">
+      <UniqueIdentifier>{57f39556-6153-4632-a491-b3b041d17a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameContent\Source Files\Unit">
+      <UniqueIdentifier>{98eacf33-1dac-442c-87e9-997fe8e163ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
