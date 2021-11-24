@@ -1,7 +1,9 @@
 #pragma once
-
 #include "raylib.h"
+#include <vector>
+#include <iostream>
 
+class GameWorld;
 class Circle;
 class Square;
 
@@ -13,6 +15,10 @@ private:
 
 	Circle* m_circle;
 	Square* m_square;
+	GameWorld* m_gameWorld;
+
+	std::vector<Circle*> m_groupOfCircles;
+	std::vector<Square*> m_groupOfSquares;
 
 	float deltaTime;
 

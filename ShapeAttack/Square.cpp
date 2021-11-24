@@ -1,11 +1,12 @@
 #include "Square.h"
 
-Square::Square(const char* textureName)
+Square::Square(const char* textureName, Vector2 unitSpawnPosition, Vector2 unitSpawnVelocity)
 {
 	m_squareImage = LoadImage(textureName);
 	m_squareTexture = LoadTextureFromImage(m_squareImage);
 
-	m_unitPosition = { 540, 220 };
+	m_unitPosition = unitSpawnPosition;
+	m_unitVelocity = unitSpawnVelocity;
 	m_textureDrawPos.x = m_squareTexture.width / 2;
 	m_textureDrawPos.y = m_squareTexture.height / 2;
 }

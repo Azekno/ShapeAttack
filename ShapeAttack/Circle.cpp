@@ -1,11 +1,12 @@
 #include "Circle.h"
 
-Circle::Circle(const char* textureName)
+Circle::Circle(const char* textureName, Vector2 unitSpawnPosition, Vector2 unitSpawnVelocity)
 {
 	m_circleImage = LoadImage(textureName);
 	m_circleTexture = LoadTextureFromImage(m_circleImage);
 
-	m_unitPosition = { 100, 220 };
+	m_unitPosition = unitSpawnPosition;
+	m_unitVelocity = unitSpawnVelocity;
 	m_textureDrawPos.x = m_circleTexture.width / 2;
 	m_textureDrawPos.y = m_circleTexture.height / 2;
 }

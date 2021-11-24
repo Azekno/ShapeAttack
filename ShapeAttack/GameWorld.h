@@ -6,7 +6,8 @@
 class GameWorld
 {
 public:
-	GameWorld(const char* textureName);
+	//GameWorld(const char* textureName, float gameWorldWidth, float gameWorldHeight);
+	GameWorld(float gameWorldWidth, float gameWorldHeight);
 	~GameWorld();
 
 	void Update();

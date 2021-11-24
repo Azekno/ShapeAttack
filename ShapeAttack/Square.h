@@ -4,7 +4,7 @@
 class Square : public Shape
 {
 public:
-	Square(const char* textureName);
+	Square(const char* textureName, Vector2 unitSpawnPosition, Vector2 unitSpawnVelocity);
 	~Square();
 
 	void Update(float deltaTime);

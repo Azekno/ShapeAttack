@@ -4,7 +4,7 @@
 class Circle : public Shape
 {
 public:
-	Circle(const char* textureName);
+	Circle(const char* textureName, Vector2 unitSpawnPosition, Vector2 unitStartVelocity);
 	~Circle();
 
 	void Update(float deltaTime);
